@@ -17,4 +17,8 @@ public enum StateType {
     public String toString(){
         return this.state;
     }
+    
+    public boolean isEquals(StateType state) { 
+        return this.state.equalsIgnoreCase(state.toString()); 
+        }
 }

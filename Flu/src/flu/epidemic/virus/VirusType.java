@@ -4,15 +4,15 @@ public enum VirusType {
     H1N1("H1N1"),
     H5N1("H5N1");
     
-    private String virus = "";
+    private String name = "";
     
     
-    VirusType(String virus) {
-       this.virus = virus;
+    VirusType(String name) {
+       this.name = name;
     }
 
     public String toString() {
-        return this.virus;
+        return this.name;
     }
-    
+     
 }
